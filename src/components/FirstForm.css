@@ -1,0 +1,38 @@
+.img {
+  width: 100%;
+}
+.div {
+  margin-top: 5rem;
+  padding: 29px;
+}
+.text {
+  line-height: 36px;
+  text-align: center;
+  color: #07043b;
+  margin-top: 40px;
+}
+.text-two {
+  text-align: center;
+  color: #07043b;
+  line-height: 21px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 775px) {
+  .div {
+    padding: 0px 90px 90px 90px;
+    display: flex;
+    margin-top: 0;
+  }
+  .text,
+  .text-two {
+    text-align: left;
+  }
+  .img {
+    order: 2;
+    width: 50%;
+  }
+  .order1 {
+    order: 1;
+  }
+}

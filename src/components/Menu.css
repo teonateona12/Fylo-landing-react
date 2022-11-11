@@ -1,0 +1,29 @@
+.container,
+.cont2 {
+  display: flex;
+}
+.container {
+  justify-content: space-between;
+  padding: 29px;
+}
+.image {
+  width: 30%;
+}
+.p {
+  margin: 5px;
+  color: #07043b;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 775px) {
+  .container{
+    padding: 90px;
+  }
+  .p{
+    font-size: 16px;
+  }
+  .image{
+    width: 15%;
+  }
+  
+}

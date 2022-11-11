@@ -1,0 +1,29 @@
+footer {
+  background-color: #07043b;
+  padding: 65px 39px;
+}
+.phone,
+.email {
+  display: flex;
+  margin-top: 20px;
+}
+.phone {
+  margin-top: 30px;
+}
+.txt {
+  color: white;
+  margin: 0 20px;
+}
+.txt-2 {
+  color: white;
+}
+.div-3 {
+  margin-top: 32px;
+}
+@media screen and (min-width: 775px) {
+  footer {
+   padding: 80px;
+   display: flex;
+   justify-content: space-between;
+  }
+}
